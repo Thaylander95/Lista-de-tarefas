@@ -12,29 +12,6 @@ let card = document.querySelector('.card');
 
 let tarefas = JSON.parse(localStorage.getItem('tarefas')) || [];
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function renderizarTarefas(){
 
     // Limpar a listagem de itens antes de renderizar novamente a tela
